@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <div className="mt-12 aspect-video w-full overflow-hidden rounded-lg bg-muted">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Home-Short%20(1).jpg-ZvmzolmwjNdzDj281QJYyjc0fWDyWC.jpeg"
+            src="https://s3-bucket-my-chatbot-saas.s3.ap-southeast-1.amazonaws.com/hero-image.jpg"
             alt="AI Automation Platform"
             width={1200}
             height={675}
@@ -103,7 +103,7 @@ export default function Home() {
 
           <div className="aspect-square rounded-lg bg-muted">
             <Image
-              src="/placeholder.svg?height=300&width=600"
+              src="https://s3-bucket-my-chatbot-saas.s3.ap-southeast-1.amazonaws.com/smart-responses.jpg"
               alt="Smart Responses Visualization"
               width={600}
               height={300}
@@ -124,7 +124,7 @@ export default function Home() {
               <CardContent className="flex flex-col items-center">
                 <div className="mb-4 aspect-video w-full rounded-lg bg-muted">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src={`https://s3-bucket-my-chatbot-saas.s3.ap-southeast-1.amazonaws.com/feature-${index + 1}.jpg`}
                     alt={feature.title}
                     width={400}
                     height={200}

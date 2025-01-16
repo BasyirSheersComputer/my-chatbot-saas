@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { Menu } from 'lucide-react'
+import { Menu, UserCircle } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -49,9 +49,14 @@ export function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4 absolute right-4">
-            <Button className="hidden md:inline-flex" size="sm" variant="default">
-              Get Started
+            <Button className="hidden md:inline-flex" size="sm" variant="outline">
+                <UserCircle className="mr-2 h-4 w-4" />
+                Login
             </Button>
+            <Button className="hidden md:inline-flex" size="sm" variant="default">
+            Try for free
+            </Button>
+            
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" className="px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden">
