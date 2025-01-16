@@ -30,7 +30,7 @@ export function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem>
-                  <Link href="#" className="w-full">Pricing</Link>
+                  <Link href="/pricing" className="w-full">Pricing</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link href="#" className="w-full">Resources</Link>
@@ -66,23 +66,23 @@ export function Navbar() {
               </SheetTrigger>
               <SheetContent side="right" className="pr-0">
                 <nav className="flex flex-col space-y-4">
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary">
-                    Link One
+                  <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
+                    Home
                   </Link>
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary">
-                    Link Two
+                  <Link href="#features" className="text-sm font-medium transition-colors hover:text-primary">
+                    Features
                   </Link>
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary">
-                    Link Three
+                  <Link href="#solutions" className="text-sm font-medium transition-colors hover:text-primary">
+                    Solutions
                   </Link>
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary pl-4">
-                    Link Four
+                  <Link href="/pricing" className="text-sm font-medium transition-colors hover:text-primary">
+                    Pricing
                   </Link>
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary pl-4">
-                    Link Five
+                  <Link href="#resources" className="text-sm font-medium transition-colors hover:text-primary">
+                    Resources
                   </Link>
-                  <Link href="#" className="text-sm font-medium transition-colors hover:text-primary pl-4">
-                    Link Six
+                  <Link href="#support" className="text-sm font-medium transition-colors hover:text-primary">
+                    Support
                   </Link>
                 </nav>
                 <Button className="mt-4" size="sm">Get Started</Button>
